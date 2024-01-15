@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(rgb(255 255 255 / 50%), rgb(255 255 255 / 40%)), url(https://images.unsplash.com/photo-1620754733890-75a20f393d01?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#title, #description {
+  text-align: center;
+  font-family: Script MT;
+}
+
+#survey-form {
+  background-color: rgb(179 132 144 / 90%);
+  color: white;
+  font-family: courier, monospace;
+  padding: 20px 30px;
+  margin: auto;
+  width: 85%
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+  margin-top: -1px;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding-top: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #fafaf5;
+  border-color: #fafaf5;
+  min-width: 100px;
+}
+
+textarea,
+select {
+  width: 100%;
+  min-height: 2em;
+  background-color: #fafaf5;
+  border-color: #fafaf5;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin: 5px 0 0 0;
+  width: 60%;
+  min-height: 2em;
+  background-color: #fafaf5;
+  border-color: #fafaf5;
+}

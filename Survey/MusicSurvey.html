@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="em">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Survey</title>
+    <link rel="stylesheet" href="MusicSurvey.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <h1 id="title">Music Survey Form</h1>
+    <p id="description">Answer questions on your musical prowess and preferences</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend>About you:</legend>
+        <label id="name-label">Name:&#160       <input id="name" type="text" placeholder="Enter your name" required></input>
+        </label><br>
+        <label id="email-label">Email:
+          <input id="email" type="email" placeholder="Enter your email" required></input>
+        </label><br>
+        <label id="number-label">Age:
+&#160          <input id="number" type="number" placeholder="Enter your age" min="12" max="120"></input>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend for="dropdown">Which family of instrument do you play best?</legend>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">String</option>
+          <option value="2">Woodwind</option>
+          <option value="3">Brass</option>
+          <option value="4">Percussion</option>
+          <option value="5">Other</option>
+          <option value="6">None</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>What is your level of ability?</legend>
+          <label id="beginner-label">
+            <input id="beginner" type="radio" value="beginner" name="level-choice" class="inline" checked /> Beginner
+          </label><br>
+          <label id="intermediate-label">
+            <input id="intermediate" type="radio" value="intermediate" name="level-choice" class="inline" /> Intermediate
+          </label><br>
+          <label id="advanced-label">
+            <input id="advanced" type="radio" value="advanced" name="level-choice" class="inline" /> Advanced
+          </label>
+      </fieldset>
+      <fieldset>
+        <legend>What are your favorite eras of music?</legend>
+        <input id="medieval" type="checkbox" name="era-choice" value="medieval"> <label for="medieval">Medieval (c. 1150-c. 1400)</label><br>
+        <input id="renaissance" type="checkbox" name="era-choice" value="renaissance">
+        <label for="renaissance">Renaissance (c. 1400-c. 1600)</label><br>
+        <input id="baroque" type="checkbox" name="era-choice" value="baroque">
+        <label for="baroque">Baroque (c. 1600-c. 1750)</label><br>
+        <input id="classical" type="checkbox" name="era-choice" value="classical">
+        <label for="classical">Classical (c. 1750-c. 1830)</label><br>
+        <input id="early-romantic" type="checkbox" name="era-choice" value="early-romantic">
+        <label for="early-romantic">Early Romantic (c.1830-1860)</label><br>
+        <input id="late-romantic" type="checkbox" name="era-choice" value="late-romantic">
+        <label for="late-romantic">Late Romantic (c.1860-c.1920)</label><br>
+        <input id="20th-21st-century" type="checkbox" name="era-choice" value="20th-21st-century">
+        <label for="20th-21st-century">20th and 21st century (c. 1920-present)</label>
+      </fieldset>
+      <fieldset>
+        <legend for="essay">How do you believe your chosen instrument aligns with your favorite musical era(s)?
+        <textarea id="essay" name="essay" rows="3" cols="40" placeholder="My chosen instrument (the violin) aligns well with the Early Romantic musical era because..."></textarea>
+        </legend>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
