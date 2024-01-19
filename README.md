@@ -7,3 +7,4 @@ Example pictures of the Survey Project:
 
 Example pictures of the Tribute Project:
 ![tribute4](https://github.com/redohrm/HTML-CSS-Projects/assets/149263840/d3f31dac-879f-4ff4-bcab-4eda9a0effd2)
+![tribute5](https://github.com/redohrm/HTML-CSS-Projects/assets/149263840/a62ab889-97b9-43e4-ab10-118545215521)
