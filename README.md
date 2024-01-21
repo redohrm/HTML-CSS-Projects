@@ -10,3 +10,4 @@ Example pictures of the Tribute Project:
 ![tribute5](https://github.com/redohrm/HTML-CSS-Projects/assets/149263840/a62ab889-97b9-43e4-ab10-118545215521)
 
 Example pictures of the Education Page Project:
+![edu1](https://github.com/redohrm/HTML-CSS-Projects/assets/149263840/fbff67d5-37ed-4d0d-992e-927734ffa138)
